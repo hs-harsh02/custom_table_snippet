@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_table_custom" name="Custom Table">
+        <section class="s_table_custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" >
+<!--                        <div class="table-controls" contenteditable="false">-->
+<!--                            <button type="button" class="btn btn-primary add-row" contenteditable="false">Add Row</button>-->
+<!--                            <button type="button" class="btn btn-primary add-column" contenteditable="false">Add Column</button>-->
+<!--                        </div>-->
+                        <table class="table table-bordered table-editable">
+                            <tbody>
+                                <tr>
+                                    <td>Cell 1</td>
+                                    <td>Cell 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Cell 3</td>
+                                    <td>Cell 4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="custom_table_snippet_options" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="inside">
+            <div class="o_panel_body">
+            <t t-snippet="custom_table_snippet.s_table_custom" t-thumbnail="/custom_table_snippet/static/src/img/snippet_custom_table.png"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

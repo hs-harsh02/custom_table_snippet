@@ -1,0 +1,11 @@
+.table-editable td {
+    cursor: text;
+}
+
+.table-editable tbody td.editing {
+    background-color: #f8f9fa;
+}
+
+.table-controls {
+    margin-bottom: 10px;
+}
