@@ -6,6 +6,11 @@
     background-color: #f8f9fa;
 }
 
+.table-overflow{
+    min-width:200px;
+   overflow-x: auto;
+}
+
 .table-controls {
     margin-bottom: 10px;
 }

@@ -4,7 +4,7 @@
         <section class="s_table_custom">
             <div class="container">
                 <div class="row">
-                    <div class="col-12" >
+                    <div class="table-responsive-sm" >
 <!--                        <div class="table-controls" contenteditable="false">-->
 <!--                            <button type="button" class="btn btn-primary add-row" contenteditable="false">Add Row</button>-->
 <!--                            <button type="button" class="btn btn-primary add-column" contenteditable="false">Add Column</button>-->
